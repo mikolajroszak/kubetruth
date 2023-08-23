@@ -22,7 +22,7 @@ end
 # application runtime dependencies
 gem 'gem_logger'
 gem 'logging'
-gem 'activesupport'
+gem 'activesupport', '>= 6.1.7.5'
 gem 'clamp'
 gem 'cloudtruth-client', path: "client"
 gem 'kubeclient'
