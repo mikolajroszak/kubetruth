@@ -7,7 +7,7 @@ group :development do
   gem "pry-byebug"
   gem "ruby-debug-ide"
   gem "debase"
-  gem "solargraph"
+  gem "solargraph", ">= 0.44.3"
 end
 
 # test dependencies
