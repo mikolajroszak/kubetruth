@@ -7,14 +7,14 @@ group :development do
   gem "pry-byebug"
   gem "ruby-debug-ide"
   gem "debase"
-  gem "solargraph"
+  gem "solargraph", ">= 0.44.3"
 end
 
 # test dependencies
 group :development, :test do
   gem "rspec"
   gem "vcr"
-  gem "webmock"
+  gem "webmock", ">= 3.14.0"
   gem 'codecov', require: false, group: 'test'
   gem "simplecov"
 end
